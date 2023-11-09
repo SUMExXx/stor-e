@@ -5,7 +5,7 @@ const ShopNow = () => {
 
     const shopNow = () =>{
         const product = document.getElementById('product-section');
-        if(product){
+        if(product && typeof window !== "undefined"){
             window.scrollTo({left: 0, top: product.offsetTop - 72, behavior: 'smooth'})
         }
     }
