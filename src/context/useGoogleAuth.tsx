@@ -13,9 +13,9 @@ interface AuthContextValue{
     logOut: any;
 }
 
-export const AuthContext = createContext<AuthContextValue >({user: null, googleSignIn: ()=>{}, logOut: ()=>{}});
+const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 
-export const AuthContextProvider = ({children}: AuthContextProps) => {
+export const useGoogleAuth = () => {
 
      const [user, setUser] = useState<User | null>(null)
 
@@ -35,12 +35,6 @@ export const AuthContextProvider = ({children}: AuthContextProps) => {
           return () => unsubscribe();
       }, [user])
 
-      return(
-        <AuthContext.Provider value={{user, googleSignIn, logOut}}>
-            {
-                children
-            }
-        </AuthContext.Provider>
-    )
+      return {user, googleSignIn, logOut}
 
 }

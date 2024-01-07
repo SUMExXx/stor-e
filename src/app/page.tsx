@@ -22,15 +22,15 @@ export default function Home() {
         <div className='w-full bg-gray-700 text-center text-4xl font-semibold px-24 py-8 text-white tracking-widest'>EXCLUSIVELY FOR SGSITS</div>
         <div className='flex flex-col justify-center px-24 py-6'>
           <div className='flex flex-wrap justify-center gap-x-24 gap-y-16'>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
-            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={1}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={2}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={3}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={1}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={1}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={1}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={1}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={1}/>
+            <ProductCard image={'/images/tshirt.png'} desc={'SGSITS MAP print White T-shirt'} price={300} id={1}/>
           </div>
         </div>
       </section>
